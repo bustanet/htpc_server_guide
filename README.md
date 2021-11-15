@@ -6,6 +6,7 @@
 
 
 # NFS
+```
 ## Install NFS tools
 sudo apt update
 sudo apt install -y nfs-common
@@ -16,5 +17,6 @@ sudo mkdir /var/movies
 ##  Update /etc/fstab with the following
 ### 192.168.1.100:/volume1/movies /var/movies  nfs      defaults,vers=4    0       0
 sudo nano /etc/fstab
+```
 
 
